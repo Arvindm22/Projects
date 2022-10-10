@@ -8,13 +8,13 @@
 </head>
 <body>
 <h1>CatPhotoApp</h1>
-<div>
+<section>
     <h2>Cat Photos</h2>
     <p>Click here to view more <a href="https://www.freecatphotoapp.com/">Cat Photos</a></p>
     <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Cat">
-</div> 
+</section> 
 <h2>Cat Lists</h2>
-<div>
+<section>
     <h3>Things cat love:</h3>
     <ul>
         <li>Cat Nip</li>
@@ -22,9 +22,10 @@
         <li>Lasagna</li>
     </ul>
     <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="">
-    <p>Cats <i>love</i> Lasagna</p>
-</div>
-<div>
+    <br>
+    <caption>Cats <i>love</i> Lasagna</caption>
+</section>
+<section>
     <h3>Top 3 things cats hate:</h3>
     <ol>
         <li>Flea Treatment</li>
@@ -32,7 +33,37 @@
         <li>Other Cats</li>
     </ol>
     <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" >
-    <p>Cats <b> hates </b>other cats</p>
-</div>   
+    <br>
+    <caption>Cats <b>hate</b> other cats</caption>
+</section>
+<h2>Cat Form</h2>
+<form action="https://www.freecatphotoapp.com/">
+    <div>
+        <p>Is your cat an indoor or outdoor cat?</p>
+        <input type="radio" id="in" name="option" checked  >
+        <label for="in">Indoor</label>
+        <input type="radio" id="out" name="option">
+        <label for="out">Outdoor</label>
+    </div>
+    <div>
+        <p>What's your cat's personality?</p>
+        <input type="radio" name="option1" id="l" checked>
+        <label for="l" >Loving</label>
+        <input type="radio" name="option1" id="la">
+        <label for="la">Lazy</label>
+        <input type="radio" name="option1" id="e">
+        <label for="e">Energetic</label>
+    </div>
+    <br>
+    <div>
+        <input type="text" name="URL" id="URL" placeholder="Cat photo url" required>
+        <label for="URL" ></label>
+        <button>Submit</button>
+    </div>
+    <br>
+    <footer>
+        <span>No Copyright - <a href="https://www.freecodecamp.org/">freecodecamp.org</a></span>
+    </footer>
+</form>   
 </body>
 </html>
