@@ -3,6 +3,11 @@ h1{
     color: #f9faf8;
     margin-top: 0;
     padding-left: 100px;
+    margin-bottom: 0;
+    position: relative;
+    top: 10px;
+    border-bottom: 1px #f9faf8 dotted;
+
 }
 body{
     margin: 0;
@@ -12,5 +17,33 @@ header{
     background-color: #1f2937;
     height: 300px;
     }
-
-
+#one{
+    position: relative;
+    left: 1000px;
+    bottom: 10px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+#two{
+    position: relative;
+    left: 1050px;
+    bottom: 10px;
+    color: #f9faf8;
+    text-decoration: none;
+    }
+#three{
+    position: relative;
+    left: 1100px;
+    bottom: 10px;
+    color: #f9faf8;
+    text-decoration: none;
+}
+ .first div{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: 900px;
+    top: 50px;
+    background-color: #e5e7eb;
+ }
+ 
