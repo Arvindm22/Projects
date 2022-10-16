@@ -1,41 +1,156 @@
-h1{
-    font-size:24px ;
+h1 {
+    font-size: 24px;
     color: #f9faf8;
     margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
     width: 200px;
-    height: 200px;;
-}
-body{
-    margin: 0;
+    height: 200px;
+    ;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-header{
+body {
     background-color: #1f2937;
-    height: 600px;
-    padding: 10px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items: baseline;
+    margin: 0;
+
 }
-nav{
-    width:80%;
+
+header {
+    height: 200px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 0;
 }
-nav span{
+
+nav {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 10px;
-    margin-right: 10px;
-    border-color: #1f2937 ;
+}
+
+
+.Introduction {
+    height: 300px;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+.Introduction button{
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    padding: 5px 10px;
+    border-color: #3882f6;
+}
+
+#Intro {
+    width: 300px;
+    height: 150px;
+}
+
+#image {
+
+    width: 400px;
+    height: 150px;
+    background-color: #f9faf8;
+
+}
+
+main {
+    height: 600px;
+    background-color: #f9faf8;
     
 }
-nav span a{
-    color: #00D2AD;
-    text-decoration: none;
+
+#content {
+    width: 100%;
+    height: 400px;
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-nav span:hover{
-    transform: scale(1.2);
-    box-shadow: 0 0.10em 0.10em 0.10em #00D2AD;
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#content h3{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.box div {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin:  0 20px;
+    border: 1.2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.caption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.caption div {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 0 20px;
+    border: 1.2px solid  #f9faf8;
+    border-radius: 10px;
+ }
+ #Quote {
+    width: 100%;
+    height: 400px;
+    background-color: #e5e7eb;
     
+}
+#end{
+    width: 100%;
+    height: 400px;
+    background-color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}   
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #f9faf8;
+}
+
+#end footer{
+    width: 60%;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 15px;
+}
+footer button{
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: whitesmoke;
 }
