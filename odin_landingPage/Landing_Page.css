@@ -1,5 +1,6 @@
 h1 {
     font-size: 24px;
+    font-family: 'Caveat', cursive;
     color: #f9faf8;
     margin-top: 0;
     margin-bottom: 0;
@@ -20,7 +21,7 @@ body {
 }
 
 header {
-    height: 200px;
+    height: 180px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -30,11 +31,22 @@ header {
 }
 
 nav {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    justify-content: space-around;
+    margin-left: auto;
     padding: 10px;
+}
+nav a{
+    border:1px solid #1f2937;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: #a8dadc;
+    transition: all 0.25s ease-in-out;
+}
+nav a:hover{
+    border: 2px inset #a8dadc;
+    transform: scale(1.2);
+    box-shadow: 0 0.10em 0.10em 0.10em  #a8dadc ;
+    text-decoration: underline;
+    color: #66ebf0;
 }
 
 
@@ -45,27 +57,51 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
-
-}
-.Introduction button{
-    background-color: #3882f6;
-    color: #f9faf8;
-    border-radius: 8px;
-    padding: 5px 10px;
-    border-color: #3882f6;
+    font-family: 'Caveat', cursive;
+    font-size: 17px;
 }
 
 #Intro {
     width: 300px;
     height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: baseline;
+    color:#66ebf0;
+    
 }
+.Introduction button{
+    background-color: #3882f6;
+     color: #f9faf8;
+    border-radius: 8px;
+    padding: 5px 10px;
+
+    transition: all 0.20s ease-out;
+}
+
+.Introduction button:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
+    transform: scale(1.1);
+}
+
+
 
 #image {
 
     width: 400px;
-    height: 150px;
+    height: 250px;
     background-color: #f9faf8;
-
+    background-image: url(https://images.unsplash.com/photo-1625508200971-f63b282addb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHNhbiUyMGZyYW5jaXNjb3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:1px inset whitesmoke;
+    transition: all 0.5s ease-in-out;
+}
+#image:hover{
+    transform: scale(1.2);
+    box-shadow: 0.20em 0.20em 0.10em 0.10em black;
 }
 
 main {
@@ -88,6 +124,44 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
 }
+#one{
+    background-image: url(https://images.unsplash.com/photo-1627571615836-4948060412a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGFsY2F0cmF6JTIwaXNsYW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+#two{
+    background-image: url(https://images.unsplash.com/photo-1610312278520-bcc893a3ff1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGdvbGRlbiUyMGdhdGUlMjBicmlkZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+#three{
+    background-image: url(https://images.unsplash.com/photo-1574052880025-a55ac97531f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGFsYWNlJTIwb2YlMjBmaW5lJTIwYXJ0cyUyMHRoZWF0cmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+
+#four{
+    background-image: url(https://images.unsplash.com/photo-1585141246114-db6eaf6aba63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8b3JhY2xlJTIwcGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+#one:hover{
+    transform: scale(1.1);
+    border: 1px inset #3882f6;
+}
+#two:hover{
+    transform: scale(1.1);
+    border: 1px inset #3882f6;
+}
+#three:hover{
+    transform: scale(1.1);
+    border: 1px inset #3882f6;
+}
+#four:hover{
+    transform: scale(1.1);
+    border: 1px inset #3882f6;
+}
+
 #content h3{
     color: #1f2937;
     font-size: 36px;
@@ -99,11 +173,13 @@ main {
     height: 100px;
     padding: 20px;
     margin:  0 20px;
-    border: 1.2px solid #3882f6;
+    border: 2px solid #3882f6;
     border-radius: 10px;
 }
 
 .caption {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -120,6 +196,9 @@ main {
     border-radius: 10px;
  }
  #Quote {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
     width: 100%;
     height: 400px;
     background-color: #e5e7eb;
