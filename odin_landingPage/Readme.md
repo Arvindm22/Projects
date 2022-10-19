@@ -1,0 +1,2 @@
+# About
+A basic webpage created only with html showcasing three different recipes .This was done as a part of the foundation course on the odin project.<br>This project enabled me to apply all the basics of html that I learnt as a part of this course and gave me some hands on experience.
