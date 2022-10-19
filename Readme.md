@@ -3,4 +3,6 @@ This is a list of Projects that I m currently doing to upskill myself with the r
 # Names
 1.Cat Photo App<br>
 2.Odin Recipes<br>
-3.OdinLanding Page
+3.OdinLanding Page<br>
+4.Photo Blog<br>
+5.Pricing Panel<br>
